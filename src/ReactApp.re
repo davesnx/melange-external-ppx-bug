@@ -4,7 +4,7 @@ module App = {
   [@react.component]
   let make = () =>
     ["Hello world!", "This is React!"]
-    ->Belt.List.map(greeting => <h1> greeting->React.string </h1>)
+    ->Belt.List.map(greeting => greeting->React.string)
     ->Belt.List.toArray
     ->React.array;
 };

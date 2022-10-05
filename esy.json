@@ -3,11 +3,15 @@
   "dependencies": {
     "ocaml": "4.14.0",
     "@opam/dune": ">= 3.1.0",
-    "melange": "melange-re/melange"
+    "melange": "melange-re/melange",
+    "react-jsx-ppx": "*"
   },
   "devDependencies": {
     "@opam/dot-merlin-reader": "*",
     "@opam/ocaml-lsp-server": ">= 1.12.0"
+  },
+  "resolutions": {
+    "react-jsx-ppx": "ml-in-barcelona/react-jsx-ppx:react-jsx-ppx.opam#b0143e0"
   },
   "esy": {
     "buildsInSource": "unsafe",
